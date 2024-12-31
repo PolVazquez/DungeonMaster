@@ -5,11 +5,12 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowBlazorApp", policy =>
     {
-        policy.WithOrigins("https://localhost:7289/") // URL de tu Blazor WebAssembly
+        policy.WithOrigins("https://localhost:7289", "http://localhost:5131")
               .AllowAnyMethod()
               .AllowAnyHeader();
     });
 });
+
 
 // Aprende más sobre OpenAPI: https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
