@@ -1,0 +1,17 @@
+﻿@using DungeonMasterApp.Shared.Components
+
+@page "/story"
+
+<h1>Narrativa y Registro</h1>
+<NarrativeLog />
+
+<button @onclick="GenerateHistoryAI">Generate history</button>
+
+@code {
+
+    private async Task GenerateHistoryAI()
+    {
+        // Llamamos al servicio para generar la historia de la IA
+
+    }
+}

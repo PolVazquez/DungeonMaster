@@ -1,0 +1,19 @@
+﻿@page "/settings"
+
+<h1>Configuración</h1>
+<label for="ai-personality">Personalidad de la IA:</label>
+<select id="ai-personality" @bind="aiPersonality">
+    <option value="neutral">Neutral</option>
+    <option value="funny">Humorística</option>
+    <option value="serious">Seria</option>
+</select>
+<button @onclick="SaveSettings">Guardar</button>
+
+@code {
+    private string aiPersonality = "neutral";
+
+    private void SaveSettings()
+    {
+        // Lógica para guardar la configuración
+    }
+}
