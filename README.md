@@ -93,12 +93,6 @@ DungeonMasterAI/
 1. Accede a la aplicación WebAssembly en tu navegador 🕸️:
    - URL: `https://localhost:7289`.
 
-2. Prueba la conectividad con la API 🔄:
-   - En el frontend, realiza una llamada al endpoint `/weatherforecast` 🌦️.
-
-3. Verifica el correcto funcionamiento del backend accediendo a Swagger 📜:
-   - URL: `https://localhost:7109/swagger`.
-
 ---
 
 ## Próximos pasos 🚀
