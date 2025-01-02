@@ -6,4 +6,8 @@
     <EnvName>PHPDev</EnvName>
     <RuntimeVersion>8.4</RuntimeVersion>
   </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="BL\" />
+    <Folder Include="DA\" />
+  </ItemGroup>
 </Project>

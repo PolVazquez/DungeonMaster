@@ -18,6 +18,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{8BCF0F34-902C-499C-865D-868BFF2DF77F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonMasterApp", "DungeonMasterApp.csproj", "{B11B9C81-03E1-4776-80B0-28107D703692}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AE6EEDBD-475C-4EA0-AE79-99E5E6E84436} = {AE6EEDBD-475C-4EA0-AE79-99E5E6E84436}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonMasterServices", "..\DungeonMasterServices\DungeonMasterServices.csproj", "{9F188C54-6297-4C2A-835A-C30D02073817}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +48,10 @@ Global
 		{B11B9C81-03E1-4776-80B0-28107D703692}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B11B9C81-03E1-4776-80B0-28107D703692}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B11B9C81-03E1-4776-80B0-28107D703692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F188C54-6297-4C2A-835A-C30D02073817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F188C54-6297-4C2A-835A-C30D02073817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F188C54-6297-4C2A-835A-C30D02073817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F188C54-6297-4C2A-835A-C30D02073817}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,5 +62,6 @@ Global
 		{16A0AFEB-BEB0-4365-9CA4-50C3DAB58EE1} = {8BCF0F34-902C-499C-865D-868BFF2DF77F}
 		{13A529C8-6B7E-4AEF-AD71-54D7EAC54864} = {8BCF0F34-902C-499C-865D-868BFF2DF77F}
 		{B11B9C81-03E1-4776-80B0-28107D703692} = {A3CBDFA6-7365-4C27-9D5F-D012125CFE2B}
+		{9F188C54-6297-4C2A-835A-C30D02073817} = {A3CBDFA6-7365-4C27-9D5F-D012125CFE2B}
 	EndGlobalSection
 EndGlobal

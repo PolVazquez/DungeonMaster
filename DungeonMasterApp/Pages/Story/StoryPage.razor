@@ -1,17 +1,19 @@
-﻿@using DungeonMasterApp.Shared.Components
+﻿@using DungeonMasterServices
+@inject IStoryService StoryService
 
 @page "/story"
 
-<h1>Narrativa y Registro</h1>
-<NarrativeLog />
+<h3>Generar Historia</h3>
 
-<button @onclick="GenerateHistoryAI">Generate history</button>
+<button @onclick="GenerateStory">Generar Historia</button>
+
+<p>@story</p>
 
 @code {
+    private string story;
 
-    private async Task GenerateHistoryAI()
+    private async Task GenerateStory()
     {
-        // Llamamos al servicio para generar la historia de la IA
-
+        story = await StoryService.GetStory();
     }
 }
