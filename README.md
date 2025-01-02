@@ -90,8 +90,10 @@ cd DungeonMasterAI
 
 ```
 DungeonMasterAI/
-├── DungeonMasterApp/      # Proyecto Blazor WebAssembly (Frontend)
-├── DungeonMasterApi/      # Proyecto ASP.NET Core API (Backend)
+├── DungeonMasterApp/             # Proyecto Blazor WebAssembly (Client)
+├── DungeonMasterApi/             # Proyecto ASP.NET Core API (Server)
+├── DungeonMasterBackendPython/   # Proyecto Python (Framework)
+├── DungeonMasterPHP/             # Proyecto PHP (Framework)
 └── README.md             # Documentación del proyecto
 ```
 
