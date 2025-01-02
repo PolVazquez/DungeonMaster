@@ -1,0 +1,84 @@
+﻿:root {
+    /* preload */
+    --bb-preload-modal-z-index: 2055 !important;
+    --bb-preload-modal-backdrop-z-index: 2050 !important;
+    /* confirm dialog */
+    --bb-confirm-dialog-z-index: 2045 !important;
+    --bb-confirm-dialog-backdrop-z-index: 2040 !important;
+    /* offcanvas */
+    --bb-offcanvas-close-icon-font-size: 2rem !important;
+    --bb-offcanvas-footer-padding-y: 1rem !important;
+    --bb-offcanvas-footer-padding-x: 1rem !important;
+    --bb-offcanvas-horizontal-width-sm: 300px !important;
+    --bb-offcanvas-horizontal-width-lg: 800px !important;
+    /* custom tooltip */
+    --bb-tooltip-primary: #b08d57 !important; /* dorado */
+    --bb-tooltip-secondary: #6a4e23 !important; /* marrón oscuro */
+    --bb-tooltip-success: #8b7e4f !important; /* marrón dorado */
+    --bb-tooltip-danger: #9c4e1e !important; /* rojo arcilla */
+    --bb-tooltip-warning: #be9b4b !important; /* dorado suave */
+    --bb-tooltip-info: #7f6e3e !important; /* marrón oliva */
+    --bb-tooltip-light: #f5e1a4 !important; /* dorado claro */
+    --bb-tooltip-dark: #3e2b1f !important; /* marrón muy oscuro */
+    --bb-tooltip-color-white: #fefad6 !important; /* blanco cálido */
+    --bb-tooltip-color-dark: #4a2a1a !important; /* marrón oscuro */
+    /* border */
+    --bs-border-radius-xs: 0.125rem !important;
+    --bs-border-radius-md: 0.375rem !important;
+    /* table */
+    --bb-table-sticky-background-color: #f0e1c0 !important; /* fondo crema */
+    --bb-table-freeze-column-background-color: #f0e1c0 !important; /* fondo crema */
+    --bb-table-selected-row-color: #3e2b1f !important; /* marrón oscuro */
+    --bb-table-selected-row-background-color: rgba(63, 43, 31, 0.075) !important; /* marrón suave */
+    --bb-table-selected-row-hover-color: #3e2b1f !important; /* marrón oscuro */
+    --bb-table-selected-row-hover-background-color: rgba(63, 43, 31, 0.075) !important; /* marrón suave */
+    /* enum filter */
+    --bb-grid-filter-dropdown-max-height: 300px !important;
+    /* callout */
+    --bb-callout-link: 10, 88, 202 !important;
+    --bb-callout-code-color: #ab296a !important;
+    /* sidebar */
+    --bb-violet: #9461fb !important;
+    --bb-brown-bg: #4B2E0E !important; /* marrón oscuro */
+    --bb-brown-bg-rgb: 75,46,14 !important; /* marrón oscuro */
+    --bb-sidebar-width: 270px !important;
+    --bb-sidebar-collapsed-width: 50px !important;
+    --bb-sidebar-background-color: rgba(255, 255, 255, 1) !important;
+    --bb-sidebar-top-row-background-color: #5b3a22 !important; /* marrón oscuro cálido */
+    --bb-sidebar-top-row-border-color: #3e2b1f !important; /* marrón muy oscuro */
+    --bb-sidebar-title-text-color: #f5e1a4 !important; /* dorado claro */
+    --bb-sidebar-brand-icon-color: #f5e1a4 !important; /* dorado claro */
+    --bb-sidebar-brand-image-width: 24px !important;
+    --bb-sidebar-brand-image-height: 24px !important;
+    --bb-sidebar-title-badge-text-color: #070607 !important;
+    --bb-sidebar-title-badge-background-color: #f5e1a4 !important; /* dorado claro */
+    --bb-sidebar-navbar-toggler-icon-color: #5b3a22 !important; /* marrón cálido */
+    --bb-sidebar-navbar-toggler-background-color: #f5e1a4 !important; /* dorado claro */
+    --bb-sidebar-content-border-color: #d6d5d5 !important; /* gris suave */
+    --bb-sidebar-nav-item-text-color: rgba(0,0,0,0.9) !important;
+    --bb-sidebar-nav-item-text-active-color-rgb: 112.520718,44.062154,249.437846 !important;
+    --bb-sidebar-nav-item-text-hover-color: rgba(var(--bb-sidebar-nav-item-text-active-color-rgb),0.9) !important;
+    --bb-sidebar-nav-item-text-active-color: rgba(var(--bb-sidebar-nav-item-text-active-color-rgb),0.9) !important;
+    --bb-sidebar-nav-item-background-hover-color: rgba(var(--bb-sidebar-nav-item-text-active-color-rgb),0.08) !important;
+    --bb-sidebar-nav-item-group-background-color: rgba(var(--bb-sidebar-nav-item-text-active-color-rgb),0.08) !important;
+}
+
+[data-bs-theme=dark] {
+    /* sidebar */
+    --bb-sidebar-background-color: #2a1a0d !important; /* marrón muy oscuro */
+    --bb-sidebar-top-row-background-color: #2a1a0d !important; /* marrón muy oscuro */
+    --bb-sidebar-top-row-border-color: #3e2b1f !important; /* marrón oscuro */
+    --bb-sidebar-title-text-color: #f5e1a4 !important; /* dorado claro */
+    --bb-sidebar-brand-icon-color: #f5e1a4 !important; /* dorado claro */
+    --bb-sidebar-title-badge-text-color: #f5e1a4 !important; /* dorado claro */
+    --bb-sidebar-title-badge-background-color: #3e2b1f !important; /* marrón oscuro */
+    --bb-sidebar-navbar-toggler-icon-color: #f5e1a4 !important; /* dorado claro */
+    --bb-sidebar-navbar-toggler-background-color: #3e2b1f !important; /* marrón oscuro */
+    --bb-sidebar-content-border-color: #3e2b1f !important; /* marrón oscuro */
+    --bb-sidebar-nav-item-text-color: #f5e1a4 !important; /* dorado claro */
+    --bb-sidebar-nav-item-text-active-color-rgb: 112.520718,44.062154,249.437846 !important;
+    --bb-sidebar-nav-item-text-hover-color: rgba(var(--bb-sidebar-nav-item-text-active-color-rgb),0.9) !important;
+    --bb-sidebar-nav-item-text-active-color: rgba(var(--bb-sidebar-nav-item-text-active-color-rgb),0.9) !important;
+    --bb-sidebar-nav-item-background-hover-color: rgba(var(--bb-sidebar-nav-item-text-active-color-rgb),0.08) !important;
+    --bb-sidebar-nav-item-group-background-color: rgba(var(--bb-sidebar-nav-item-text-active-color-rgb),0.08) !important;
+}
