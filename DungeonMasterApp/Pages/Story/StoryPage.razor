@@ -5,15 +5,6 @@
 
 <h3>Generar Historia</h3>
 
-<button @onclick="GenerateStory">Generar Historia</button>
+<Button Class="btn btn-primary" @onclick="GenerateStory">Generar Historia</Button>
 
 <p>@story</p>
-
-@code {
-    private string story;
-
-    private async Task GenerateStory()
-    {
-        story = await StoryService.GetStory();
-    }
-}

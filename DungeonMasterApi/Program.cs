@@ -17,7 +17,11 @@ builder.Services.AddCors(options =>
 
 builder.Services.AddControllers();
 
-// Otros servicios...
+// Servicio IA
+//builder.Services.AddHttpClient<IStoryService, StoryHttpClient>(client =>
+//{
+//    client.BaseAddress = new Uri("https://tu-backend-de-ia.com/");
+//});
 
 var app = builder.Build();
 

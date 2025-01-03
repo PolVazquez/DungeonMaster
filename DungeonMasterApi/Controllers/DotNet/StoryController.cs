@@ -8,10 +8,10 @@ namespace DungeonMasterApi.Controllers.DotNet
     {
         // Endpoint para generar historia
         [HttpGet("generate")]
-        public async Task<string> GenerateHistory()
+        public async Task<IActionResult> GenerateHistory()
         {
-            // Lógica de generación de historia (esto puede ser más complejo en tu caso)
-            return "Historia generada correctamente";
+            // Lógica para generar la historia usando la IA
+            return Ok("Historia generada");  // Retorna el texto generado
         }
     }
 }

@@ -1,0 +1,57 @@
+﻿:root {
+    --oro-antiguo: #B87333;
+    --oro-antiguo-rgb: rgb(184, 115, 51);
+    --marron-oscuro: #654321;
+    --marron-oscuro-rgb: rgb(101, 67, 33);
+    --marron-claro: #B5651D;
+    --marron-claro-rgb: rgb(181, 101, 29);
+    --bronce: #CD7F32;
+    --bronce-rgb: rgb(205, 127, 50);
+    --cobre: #B87333;
+    --cobre-rgb: rgb(184, 115, 51);
+    --beige: #F5F5DC;
+    --beige-rgb: rgb(245, 245, 220);
+    --oro: #FFD700;
+    --oro-rgb: rgb(255, 215, 0);
+    --ambar: #FFBF00;
+    --ambar-rgb: rgb(255, 191, 0);
+    --piedra: #808065;
+    --piedra-rgb: rgb(128, 128, 105);
+    --verde-musgo: #567D36;
+    --verde-musgo-rgb: rgb(86, 125, 54);
+    --sable: #A99566;
+    --sable-rgb: rgb(169, 149, 102);
+    --gris-oscuro: #3C3C3C;
+    --gris-oscuro-rgb: rgb(60, 60, 60);
+    --rojo-rubi: #E0117D;
+    --rojo-rubi-rgb: rgb(224, 17, 95);
+    --verde-esmeralda: #50C878;
+    --verde-esmeralda-rgb: rgb(80, 200, 120);
+    --madera-envejecida: #8B4513;
+    --madera-envejecida-rgb: rgb(139, 69, 19);
+    /* sidebar */
+    --bb-sidebar-background-color: var(--beige) !important;
+    --bb-sidebar-top-row-background-color: var(--verde-musgo) !important;
+    --bb-sidebar-top-row-border-color: rgba(var(--marron-oscuro-rgb)) !important;
+    --bb-sidebar-title-text-color: var(--ambar) !important;
+    --bb-sidebar-brand-icon-color: var(--ambar) !important;
+    --bb-sidebar-title-badge-text-color: var(--rojo-rubi) !important;
+    --bb-sidebar-title-badge-background-color: var(--verde-esmeralda) !important;
+    --bb-sidebar-navbar-toggler-icon-color: var(--rojo-rubi) !important;
+    --bb-sidebar-navbar-toggler-background-color: var(--beige) !important;
+    --bb-sidebar-content-border-color: var(--rojo-rubi) !important;
+    --bb-sidebar-nav-item-text-color: var(--oro-antiguo) !important;
+    --bb-sidebar-nav-item-text-active-color-rgb: rgb(var(--rojo-rubi-rgb)) !important;
+    --bb-sidebar-nav-item-text-hover-color: rgba(var(--rojo-rubi-rgb), 0.85) !important;
+    --bb-sidebar-nav-item-text-active-color: rgba(var(--rojo-rubi-rgb), 1) !important;
+    --bb-sidebar-nav-item-background-hover-color: rgba(var(--rojo-rubi-rgb), 0.15) !important;
+    --bb-sidebar-nav-item-group-background-color: rgba(var(--rojo-rubi-rgb), 0.15) !important;
+    --bs-body-bg: #fff !important;
+}
+
+.btn-primary {
+}
+
+.bb-top-row {
+    background-color: var(--piedra) !important;
+}
